@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(330, 100%, 98%);
+}
+
+#FatherBox {
+    border-radius: 20px;
+    padding: 40px;
+    background-color: hsl(0, 0%, 100%);
+    margin: 50px auto;
+    width: 700px;
+}
+
+/* First DIV */
+.FirstDiv {
+    width: 100%;
+}
+
+.FirstDiv img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.titleCard {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 35px;
+    font-style: normal;
+    color: hsl(24, 5%, 18%);
+    transition: 0.1s;
+}
+
+.titleCard:hover {
+    width: fit-content;
+    color: hsl(332, 51%, 32%);
+    border-bottom: 2px solid hsl(332, 51%, 32%);
+}
+
+.firstPara {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    color: hsl(24, 5%, 18%);
+    font-optical-sizing: auto;
+    font-family: "Outfit", sans-serif;
+}
+
+/* ------------ */
+/* Secound Div */
+.SecDiv {
+    width: 100%;
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.SecDiv h3 {
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 15px;
+}
+
+.SecDiv ul li {
+    width: 100%;
+    font-optical-sizing: auto;
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    color: hsl(24, 5%, 25%);
+    margin: 0 0 15px 30px;
+    list-style: none;
+}
+
+.SECliTitle {
+    font-optical-sizing: auto;
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+    font-weight: 600;
+}
+
+.dot {
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+    padding: 2px;
+    background-color: hsl(332, 51%, 32%);
+    box-shadow: 2px 2px 10px;
+    right: 20px;
+    bottom: 3px;
+}
+
+/* --------- */
+/* DIV 3 */
+.TheDIV {
+    width: 100%;
+}
+
+.TitleH2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+.TheDIV ul li {
+    width: 100%;
+    font-size: 15px;
+    list-style: none;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    color: hsl(24, 5%, 25%);
+    font-optical-sizing: auto;
+    font-family: "Outfit", sans-serif;
+}
+
+.dot2 {
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+    padding: 2px;
+    background-color: hsl(14, 45%, 36%);
+    box-shadow: 2px 2px 10px;
+    right: 20px;
+    bottom: 3px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    margin-top: 40px;
+    background-color: hsl(30, 54%, 90%);
+}
+
+/* --------- */
+/*  DIV 4   */
+.FouDIV {
+    width: 100%;
+}
+
+.FouDIV li {
+    position: relative;
+    font-size: 15px;
+    list-style: none;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    color: hsl(24, 5%, 25%);
+    font-optical-sizing: auto;
+    font-family: "Outfit", sans-serif;
+}
+
+.dot3 {
+    display: inline-block;
+    position: absolute;
+    border-radius: 10px;
+    /* padding: 2px; */
+    color: hsl(14, 45%, 36%);
+    left: -21px;
+    top: -1px;
+}
+
+/* ---------- */
+/*   DIV 5   */
+.Fitpara {
+    color: hsl(24, 5%, 25%);
+    font-optical-sizing: auto;
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 30px;
+}
+
+.tabel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    color: hsl(30, 10%, 34%);
+    font-optical-sizing: auto;
+    font-family: "Outfit", sans-serif;
+}
+
+.num {
+    font-optical-sizing: auto;
+    font-family: "Outfit", sans-serif;
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+.line1 {
+    margin: 15px 0px 15px 0px;
+    height: 1px;
+    width: 100%;
+    background-color: hsl(30, 54%, 90%);
+}
+
+/* -------- */
+footer {
+    color: hsl(24, 5%, 18%);
+    text-align: center;
+    font-size: 14px;
+    font-optical-sizing: auto;
+    font-family: "Outfit", sans-serif;
+}
+
+footer a {
+    color: hsl(332, 51%, 32%);
+    text-decoration: none;
+}
